@@ -1,0 +1,56 @@
+body {
+    background-color: #3d4543;
+}
+
+.box {
+    margin: 2em;
+}
+
+.keys {
+    /* position: relative;*/
+    top: -3em;
+}
+
+.button {
+    width: 4.5em;
+    height: 3.75em;
+    border: none;
+    margin-left: 1em;
+    cursor: pointer;
+    font-size: 2em;
+
+}
+
+.button.pink {
+    color: black;
+    background-color: #ff4561;
+    font-size: 2em;
+}
+
+.button.black {
+    color: black;
+    background-color: white;
+    font-size: 2em;
+
+}
+
+.button.orange {
+    color: black;
+    background-color: #ff9933;
+    font-size: 2em;
+}
+
+.input {
+    margin-bottom: -3em;
+    margin: 1em;
+    font-size: 3.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
